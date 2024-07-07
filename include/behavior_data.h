@@ -540,5 +540,16 @@ extern const BehaviorScript bhvEndBirds1[];
 extern const BehaviorScript bhvEndBirds2[];
 extern const BehaviorScript bhvIntroScene[];
 extern const BehaviorScript bhvUnusedFakeStar[];
+// Slide block behaviors begin here //
+extern const BehaviorScript bhvBrokenLEnd[];
+extern const BehaviorScript bhvBrokenLMid[];
+extern const BehaviorScript bhvBrokenLStart[];
+extern const BehaviorScript bhvBrokenREnd[];
+extern const BehaviorScript bhvBrokenRMid[];
+extern const BehaviorScript bhvBrokenRStart[];
+extern const BehaviorScript bhvDoubleStraightLine[];
+extern const BehaviorScript bhvOBlock[];
+extern const BehaviorScript bhvSingleStraightLine[];
+extern const BehaviorScript bhvXBlock[];
 
 #endif // BEHAVIOR_DATA_H

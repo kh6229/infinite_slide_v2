@@ -1,0 +1,16 @@
+extern const GeoLayout single_straight_line_geo[];
+extern Lights1 single_straight_line_f3dlite_material_lights;
+extern Lights1 single_straight_line_f3dlite_material_001_lights;
+extern u8 single_straight_line_ttm_textures_01800_rgba16_ci8[];
+extern u8 single_straight_line_ttm_textures_01800_rgba16_pal_rgba16[];
+extern u8 single_straight_line_ttm_textures_0C000_rgba16_ci4[];
+extern u8 single_straight_line_ttm_textures_0C000_rgba16_pal_rgba16[];
+extern Vtx single_straight_line_Single_Straight_Line_mesh_layer_1_vtx_0[8];
+extern Gfx single_straight_line_Single_Straight_Line_mesh_layer_1_tri_0[];
+extern Vtx single_straight_line_Single_Straight_Line_mesh_layer_1_vtx_1[8];
+extern Gfx single_straight_line_Single_Straight_Line_mesh_layer_1_tri_1[];
+extern Gfx mat_single_straight_line_f3dlite_material[];
+extern Gfx mat_revert_single_straight_line_f3dlite_material[];
+extern Gfx mat_single_straight_line_f3dlite_material_001[];
+extern Gfx mat_revert_single_straight_line_f3dlite_material_001[];
+extern Gfx single_straight_line_Single_Straight_Line_mesh_layer_1[];
