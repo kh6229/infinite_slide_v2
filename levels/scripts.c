@@ -263,6 +263,17 @@ const LevelScript script_func_global_9[] = {
     LOAD_MODEL_FROM_DL( MODEL_CAP_SWITCH_EXCLAMATION,  cap_switch_exclamation_seg5_dl_05002E00, LAYER_ALPHA),
     LOAD_MODEL_FROM_GEO(MODEL_CAP_SWITCH,              cap_switch_geo),
     LOAD_MODEL_FROM_DL( MODEL_CAP_SWITCH_BASE,         cap_switch_base_seg5_dl_05003120,        LAYER_OPAQUE),
+    // Slide blocks begin here //
+    LOAD_MODEL_FROM_GEO(MODEL_BROKEN_L_END,            broken_l_end_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BROKEN_L_MID,            broken_l_mid_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BROKEN_L_START,          broken_l_start_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BROKEN_R_END,            broken_r_end_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BROKEN_R_MID,            broken_r_mid_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_BROKEN_R_START,          broken_r_start_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_DOUBLE_STRAIGHT_LINE,    double_straight_line_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_O_BLOCK,                 o_block_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_SINGLE_STRAIGHT_LINE,    single_straight_line_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_X_BLOCK,                 x_block_geo),
     RETURN(),
 };
 

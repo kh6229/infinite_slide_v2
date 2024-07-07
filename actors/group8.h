@@ -26,4 +26,44 @@ extern const Gfx springboard_spring_seg5_dl_05001800[];
 extern const Gfx springboard_checkerboard_seg5_dl_05001900[];
 extern const Collision springboard_collision_05001A28[];
 
+#include "broken_l_end/geo_header.h"
+
+#include "broken_l_end/collision_header.h"
+
+#include "broken_l_mid/geo_header.h"
+
+#include "broken_l_mid/collision_header.h"
+
+#include "broken_l_start/geo_header.h"
+
+#include "broken_l_start/collision_header.h"
+
+#include "broken_r_end/geo_header.h"
+
+#include "broken_r_end/collision_header.h"
+
+#include "broken_r_mid/geo_header.h"
+
+#include "broken_r_mid/collision_header.h"
+
+#include "broken_r_start/geo_header.h"
+
+#include "broken_r_start/collision_header.h"
+
+#include "double_straight_line/geo_header.h"
+
+#include "double_straight_line/collision_header.h"
+
+#include "o_block/geo_header.h"
+
+#include "o_block/collision_header.h"
+
+#include "single_straight_line/geo_header.h"
+
+#include "single_straight_line/collision_header.h"
+
+#include "x_block/geo_header.h"
+
+#include "x_block/collision_header.h"
+
 #endif

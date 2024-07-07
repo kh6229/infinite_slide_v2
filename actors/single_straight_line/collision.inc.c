@@ -1,0 +1,23 @@
+const Collision single_straight_line_collision[] = {
+	COL_INIT(),
+	COL_VERTEX_INIT(8),
+	COL_VERTEX(-607, 529, 1890),
+	COL_VERTEX(-607, 833, 1890),
+	COL_VERTEX(-607, 833, -1887),
+	COL_VERTEX(-607, 529, -1887),
+	COL_VERTEX(608, 529, -1887),
+	COL_VERTEX(608, 833, -1887),
+	COL_VERTEX(608, 833, 1890),
+	COL_VERTEX(608, 529, 1890),
+	COL_TRI_INIT(SURFACE_DEFAULT, 8),
+	COL_TRI(0, 1, 2),
+	COL_TRI(0, 2, 3),
+	COL_TRI(4, 5, 6),
+	COL_TRI(4, 6, 7),
+	COL_TRI(3, 4, 7),
+	COL_TRI(3, 7, 0),
+	COL_TRI(5, 2, 1),
+	COL_TRI(5, 1, 6),
+	COL_TRI_STOP(),
+	COL_END()
+};

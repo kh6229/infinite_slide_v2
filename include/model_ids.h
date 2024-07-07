@@ -361,6 +361,17 @@
 #define MODEL_CAP_SWITCH_EXCLAMATION      0x54        // cap_switch_exclamation_seg5_dl_05002E00
 #define MODEL_CAP_SWITCH                  0x55        // cap_switch_geo
 #define MODEL_CAP_SWITCH_BASE             0x56        // cap_switch_base_seg5_dl_05003120
+// Slide blocks start here //
+#define MODEL_BROKEN_L_END                0x57        // broken_l_end_geo
+#define MODEL_BROKEN_L_MID                0x58        // broken_l_mid_geo
+#define MODEL_BROKEN_L_START              0x59        // broken_l_start_geo
+#define MODEL_BROKEN_R_END                0x5A        // broken_r_end_geo
+#define MODEL_BROKEN_R_MID                0x5B        // broken_r_mid_geo
+#define MODEL_BROKEN_R_START              0x5C        // broken_r_start_geo
+#define MODEL_DOUBLE_STRAIGHT_LINE        0x5D        // double_straight_line_geo
+#define MODEL_O_BLOCK                     0x5E        // o_block_geo
+#define MODEL_SINGLE_STRAIGHT_LINE        0x5F        // single_straight_line_geo
+#define MODEL_X_BLOCK                     0x60        // x_block_geo
 
 // group 9
 #define MODEL_BOO                         0x54        // boo_geo
