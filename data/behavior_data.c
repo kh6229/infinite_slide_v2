@@ -6081,6 +6081,7 @@ const BehaviorScript bhvIntroScene[] = {
 const BehaviorScript bhvBrokenLEnd[] = {
     BEGIN(OBJ_LIST_SURFACE),
     LOAD_COLLISION_DATA(broken_l_end_collision),
+    SET_FLOAT(oDrawingDistance, 10000),
     OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
     BEGIN_LOOP(),
         CALL_NATIVE(load_object_collision_model),
@@ -6090,6 +6091,7 @@ const BehaviorScript bhvBrokenLEnd[] = {
 const BehaviorScript bhvBrokenLMid[] = {
     BEGIN(OBJ_LIST_SURFACE),
     LOAD_COLLISION_DATA(broken_l_mid_collision),
+    SET_FLOAT(oDrawingDistance, 10000),
     OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
     BEGIN_LOOP(),
         CALL_NATIVE(load_object_collision_model),
@@ -6099,6 +6101,7 @@ const BehaviorScript bhvBrokenLMid[] = {
 const BehaviorScript bhvBrokenLStart[] = {
     BEGIN(OBJ_LIST_SURFACE),
     LOAD_COLLISION_DATA(broken_l_start_collision),
+    SET_FLOAT(oDrawingDistance, 10000),
     OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
     BEGIN_LOOP(),
         CALL_NATIVE(load_object_collision_model),
@@ -6108,6 +6111,7 @@ const BehaviorScript bhvBrokenLStart[] = {
 const BehaviorScript bhvBrokenREnd[] = {
     BEGIN(OBJ_LIST_SURFACE),
     LOAD_COLLISION_DATA(broken_r_end_collision),
+    SET_FLOAT(oDrawingDistance, 10000),
     OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
     BEGIN_LOOP(),
         CALL_NATIVE(load_object_collision_model),
@@ -6117,6 +6121,7 @@ const BehaviorScript bhvBrokenREnd[] = {
 const BehaviorScript bhvBrokenRMid[] = {
     BEGIN(OBJ_LIST_SURFACE),
     LOAD_COLLISION_DATA(broken_r_mid_collision),
+    SET_FLOAT(oDrawingDistance, 10000),
     OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
     BEGIN_LOOP(),
         CALL_NATIVE(load_object_collision_model),
@@ -6126,6 +6131,7 @@ const BehaviorScript bhvBrokenRMid[] = {
 const BehaviorScript bhvBrokenRStart[] = {
     BEGIN(OBJ_LIST_SURFACE),
     LOAD_COLLISION_DATA(broken_r_start_collision),
+    SET_FLOAT(oDrawingDistance, 10000),
     OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
     BEGIN_LOOP(),
         CALL_NATIVE(load_object_collision_model),
@@ -6135,6 +6141,7 @@ const BehaviorScript bhvBrokenRStart[] = {
 const BehaviorScript bhvDoubleStraightLine[] = {
     BEGIN(OBJ_LIST_SURFACE),
     LOAD_COLLISION_DATA(double_straight_line_collision),
+    SET_FLOAT(oDrawingDistance, 10000),
     OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
     BEGIN_LOOP(),
         CALL_NATIVE(load_object_collision_model),
@@ -6144,6 +6151,7 @@ const BehaviorScript bhvDoubleStraightLine[] = {
 const BehaviorScript bhvOBlock[] = {
     BEGIN(OBJ_LIST_SURFACE),
     LOAD_COLLISION_DATA(o_block_collision),
+    SET_FLOAT(oDrawingDistance, 10000),
     OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
     BEGIN_LOOP(),
         CALL_NATIVE(load_object_collision_model),
@@ -6153,6 +6161,7 @@ const BehaviorScript bhvOBlock[] = {
 const BehaviorScript bhvSingleStraightLine[] = {
     BEGIN(OBJ_LIST_SURFACE),
     LOAD_COLLISION_DATA(single_straight_line_collision),
+    SET_FLOAT(oDrawingDistance, 10000),
     OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
     BEGIN_LOOP(),
         CALL_NATIVE(load_object_collision_model),
@@ -6162,6 +6171,7 @@ const BehaviorScript bhvSingleStraightLine[] = {
 const BehaviorScript bhvXBlock[] = {
     BEGIN(OBJ_LIST_SURFACE),
     LOAD_COLLISION_DATA(x_block_collision),
+    SET_FLOAT(oDrawingDistance, 10000),
     OR_INT(oFlags, OBJ_FLAG_UPDATE_GFX_POS_AND_ANGLE),
     BEGIN_LOOP(),
         CALL_NATIVE(load_object_collision_model),
