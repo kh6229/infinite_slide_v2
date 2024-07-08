@@ -551,5 +551,7 @@ extern const BehaviorScript bhvDoubleStraightLine[];
 extern const BehaviorScript bhvOBlock[];
 extern const BehaviorScript bhvSingleStraightLine[];
 extern const BehaviorScript bhvXBlock[];
+extern const BehaviorScript bhvSingleToDouble[];
+extern const BehaviorScript bhvDoubleToSingle[];
 
 #endif // BEHAVIOR_DATA_H

@@ -20,3 +20,5 @@
 #include "o_block/geo.inc.c"
 #include "single_straight_line/geo.inc.c"
 #include "x_block/geo.inc.c"
+#include "double_to_single/geo.inc.c"
+#include "single_to_double/geo.inc.c"

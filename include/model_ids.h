@@ -372,6 +372,8 @@
 #define MODEL_O_BLOCK                     0x5E        // o_block_geo
 #define MODEL_SINGLE_STRAIGHT_LINE        0x5F        // single_straight_line_geo
 #define MODEL_X_BLOCK                     0x60        // x_block_geo
+#define MODEL_SINGLE_TO_DOUBLE            0x61        // single_to_double_geo
+#define MODEL_DOUBLE_TO_SINGLE            0x62        // double_to_single_geo
 
 // group 9
 #define MODEL_BOO                         0x54        // boo_geo

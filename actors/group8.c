@@ -33,3 +33,7 @@ UNUSED static const u64 binid_1 = 1;
 #include "single_straight_line/collision.inc.c"
 #include "x_block/model.inc.c"
 #include "x_block/collision.inc.c"
+#include "double_to_single/model.inc.c"
+#include "double_to_single/collision.inc.c"
+#include "single_to_double/model.inc.c"
+#include "single_to_double/collision.inc.c"

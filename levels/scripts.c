@@ -274,6 +274,8 @@ const LevelScript script_func_global_9[] = {
     LOAD_MODEL_FROM_GEO(MODEL_O_BLOCK,                 o_block_geo),
     LOAD_MODEL_FROM_GEO(MODEL_SINGLE_STRAIGHT_LINE,    single_straight_line_geo),
     LOAD_MODEL_FROM_GEO(MODEL_X_BLOCK,                 x_block_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_SINGLE_TO_DOUBLE,        single_to_double_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_DOUBLE_TO_SINGLE,        double_to_single_geo),
     RETURN(),
 };
 

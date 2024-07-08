@@ -66,4 +66,12 @@ extern const Collision springboard_collision_05001A28[];
 
 #include "x_block/collision_header.h"
 
+#include "double_to_single/geo_header.h"
+
+#include "double_to_single/collision_header.h"
+
+#include "single_to_double/geo_header.h"
+
+#include "single_to_double/collision_header.h"
+
 #endif

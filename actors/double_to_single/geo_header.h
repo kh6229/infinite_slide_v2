@@ -1,0 +1,16 @@
+extern const GeoLayout double_to_single_geo[];
+extern Lights1 double_to_single_f3dlite_material_lights;
+extern Lights1 double_to_single_f3dlite_material_001_lights;
+extern u8 double_to_single_ttm_textures_01800_rgba16_ci8[];
+extern u8 double_to_single_ttm_textures_01800_rgba16_pal_rgba16[];
+extern u8 double_to_single_ttm_textures_0C000_rgba16_ci4[];
+extern u8 double_to_single_ttm_textures_0C000_rgba16_pal_rgba16[];
+extern Vtx double_to_single_Double_to_Single_mesh_layer_1_vtx_0[40];
+extern Gfx double_to_single_Double_to_Single_mesh_layer_1_tri_0[];
+extern Vtx double_to_single_Double_to_Single_mesh_layer_1_vtx_1[42];
+extern Gfx double_to_single_Double_to_Single_mesh_layer_1_tri_1[];
+extern Gfx mat_double_to_single_f3dlite_material[];
+extern Gfx mat_revert_double_to_single_f3dlite_material[];
+extern Gfx mat_double_to_single_f3dlite_material_001[];
+extern Gfx mat_revert_double_to_single_f3dlite_material_001[];
+extern Gfx double_to_single_Double_to_Single_mesh_layer_1[];
