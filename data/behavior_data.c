@@ -6074,9 +6074,22 @@ const BehaviorScript bhvIntroScene[] = {
     END_LOOP(),
 };
 
-// Behaviors for slide blocks begin here.                                 //
-// Each block must have its own behavior in order to load collision data. //
-// Currently just loads collision and does nothing else.                  //
+// Behavior for the slide block spawner is here.                                         //
+// Look at src/game/behaviors/slide_blocks.inc.c for the actual behavior script.         //
+// Look at src/game/block_spawner.c for the algorithm that chooses what blocks to spawn. //
+
+const BehaviorScript bhvBlockSpawner[] = {
+    BEGIN(OBJ_LIST_DEFAULT),
+    OR_INT(oFlags, OBJ_FLAG_ACTIVE_FROM_AFAR),
+    CALL_NATIVE(bhv_block_spawner_init),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bhv_block_spawner_spawn),
+    END_LOOP(),
+};
+
+// Behaviors for slide blocks begin here.                                        //
+// Each block must have its own behavior in order to load unique collision data. //
+// Currently just loads collision and does nothing else.                         //
 
 const BehaviorScript bhvBrokenLEnd[] = {
     BEGIN(OBJ_LIST_SURFACE),
