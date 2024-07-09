@@ -8,6 +8,9 @@ struct BlockCoords {
     s16 z;
 };
 
+// Table for identifying blocks by a simple number.                 //
+// Used for storing sequences of blocks in simple arrays of numbers //
+// and easily spawn them using those arrays.                        //
 static struct BlockInfo sBlockInfo[] = {
     {MODEL_SINGLE_STRAIGHT_LINE,    bhvSingleStraightLine},     //  0
     {MODEL_DOUBLE_STRAIGHT_LINE,    bhvDoubleStraightLine},     //  1
@@ -23,6 +26,8 @@ static struct BlockInfo sBlockInfo[] = {
     {MODEL_BROKEN_R_END,            bhvBrokenREnd},             // 11
 };
 
+// Y and Z coordinates for each different slide block in a sequence. 9 in total. //
+// The X coordinate is determined by xOffset.                                    //
 static struct BlockCoords sBlockCoords[] = {
     { 7560,  14962},
     { 6582,  11320},
@@ -38,6 +43,9 @@ static struct BlockCoords sBlockCoords[] = {
 u8 seq[9] = {0, 0, 0, 0, 0, 0, 0, 0, 0};
 s8 xOffset;
 
+// Spawns each slide block in the current sequence on the current X offset //
+// (normally either 10000 or -10000).                                      //
+// Currently just spawns two sequences of blocks and then deletes itself.  //
 void bhv_block_spawner_spawn() {
     u8 x, y, z;
     for (x = 0; x < 2; x++) {
